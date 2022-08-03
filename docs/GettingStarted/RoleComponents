@@ -1,0 +1,27 @@
+---
+sidebar_position: 3
+---
+# The People Components
+
+:::caution
+This Guide is being actively worked on!
+:::
+
+Fedimints have three key types of roles that together, comprise the trust from the community the federation serves:
+
+1. Users (Members?)
+2. Guardians
+3. Lightning Service Providers
+
+## Users
+
+The users of the Federation are by definition, members of that Federation through holding fm-BTC (See What is a Fedimint). The users interact with the Federation through their use of fm-BTC (and Lightning), but have no responsibilities for securing the bitcoin held by the federation, nor for providing inter-operability with the wider Lightning network. Guardians are likely to also be Users of the Federation. The quantity of users within a Federation will be determined by each Federation community.
+
+## The Guardians 
+
+The Guardians of the Federation hold the responsibility for the Federation community to jointly control the bitcoin within the Federation. The selection of Guardians is a community responsibility and likely determined by each federation community, however, are expected to be well known and trusted community members. Guardians may be Users, in practice are likely to be so. Guardians should not be Lightning Service Providers due to the conflict of incentives between the two roles. There are likely to be at least 3 Guardians, but possibly many more; the quantity of Guardians will be determined by each Federation community.
+
+## Lightning Service Providers
+
+Lightning Service Providers - or LSPs - operate the swap service between the Fedimint and the broader Lightning Network, thereby providing seamless inter-operability for Users across the wider Lightning network, and into other Federations. LSPs may charge for this service and consequently have a profit motive. Any Federation requiring inter-operabiility needs at least one LSP, but multiple may be implemented for reasons such as resilience, transactional bandwidth, or privacy of Federation <-> Lightning network connectivity. LSPs should not be Guardians. LSPs may be users.
+
